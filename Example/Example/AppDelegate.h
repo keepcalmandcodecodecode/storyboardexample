@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@property UIInterfaceOrientationMask currentOrientation;
 @property (strong, nonatomic) UIWindow *window;
 
 

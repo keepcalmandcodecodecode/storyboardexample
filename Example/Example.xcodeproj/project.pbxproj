@@ -7,29 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5391BE882D0768333278F004 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ADB9A2E39B6C8BAE3E5C6E /* Pods_Example.framework */; };
+		8C39D69A1CE0A83C007F26E8 /* SIONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D6991CE0A83C007F26E8 /* SIONavigationController.m */; };
+		8C39D69D1CE0C903007F26E8 /* LandscapeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D69C1CE0C903007F26E8 /* LandscapeVC.m */; };
+		8C39D6A01CE0C9C6007F26E8 /* PortraitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D69F1CE0C9C6007F26E8 /* PortraitVC.m */; };
+		8C39D6A51CE0CA2E007F26E8 /* RedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D6A31CE0CA2E007F26E8 /* RedVC.m */; };
+		8C39D6A61CE0CA2E007F26E8 /* RedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C39D6A41CE0CA2E007F26E8 /* RedVC.xib */; };
+		8C39D6AA1CE0CA3F007F26E8 /* GreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D6A81CE0CA3F007F26E8 /* GreenVC.m */; };
+		8C39D6AB1CE0CA3F007F26E8 /* GreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C39D6A91CE0CA3F007F26E8 /* GreenVC.xib */; };
+		8C39D6AF1CE0CCF6007F26E8 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D6AD1CE0CCF6007F26E8 /* MainVC.m */; };
+		8C39D6B01CE0CCF6007F26E8 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C39D6AE1CE0CCF6007F26E8 /* MainVC.xib */; };
+		8C39D6B11CE0E680007F26E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CED762C1CDE42B30028C950 /* Main.storyboard */; };
+		8C42C1DF1CE0FF8D002B64B6 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C1DD1CE0FF8D002B64B6 /* TestVC.m */; };
+		8C42C1E01CE0FF8D002B64B6 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C42C1DE1CE0FF8D002B64B6 /* TestVC.xib */; };
 		8CED76251CDE42B30028C950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED76241CDE42B30028C950 /* main.m */; };
 		8CED76281CDE42B30028C950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED76271CDE42B30028C950 /* AppDelegate.m */; };
-		8CED762B1CDE42B30028C950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CED762A1CDE42B30028C950 /* ViewController.m */; };
-		8CED762E1CDE42B30028C950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CED762C1CDE42B30028C950 /* Main.storyboard */; };
 		8CED76301CDE42B30028C950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CED762F1CDE42B30028C950 /* Assets.xcassets */; };
 		8CED76331CDE42B30028C950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CED76311CDE42B30028C950 /* LaunchScreen.storyboard */; };
+		8CED763C1CDE67C40028C950 /* RedPortraitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CED763B1CDE67C30028C950 /* RedPortraitStoryboard.storyboard */; };
+		8CED763E1CDF201E0028C950 /* GreenLandscapeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CED763D1CDF201E0028C950 /* GreenLandscapeStoryboard.storyboard */; };
+		979A04AD2B1DF921A398D645 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0FDD731243861A7D8EBEE5 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00ADB9A2E39B6C8BAE3E5C6E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE8F85B80186E3CDF0F152 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1F1F27B798DB3624D3BD97 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		5D0FDD731243861A7D8EBEE5 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C39D6981CE0A83C007F26E8 /* SIONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIONavigationController.h; sourceTree = "<group>"; };
+		8C39D6991CE0A83C007F26E8 /* SIONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIONavigationController.m; sourceTree = "<group>"; };
+		8C39D69B1CE0C903007F26E8 /* LandscapeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeVC.h; sourceTree = "<group>"; };
+		8C39D69C1CE0C903007F26E8 /* LandscapeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeVC.m; sourceTree = "<group>"; };
+		8C39D69E1CE0C9C6007F26E8 /* PortraitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitVC.h; sourceTree = "<group>"; };
+		8C39D69F1CE0C9C6007F26E8 /* PortraitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitVC.m; sourceTree = "<group>"; };
+		8C39D6A21CE0CA2E007F26E8 /* RedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedVC.h; sourceTree = "<group>"; };
+		8C39D6A31CE0CA2E007F26E8 /* RedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedVC.m; sourceTree = "<group>"; };
+		8C39D6A41CE0CA2E007F26E8 /* RedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedVC.xib; sourceTree = "<group>"; };
+		8C39D6A71CE0CA3F007F26E8 /* GreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenVC.h; sourceTree = "<group>"; };
+		8C39D6A81CE0CA3F007F26E8 /* GreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenVC.m; sourceTree = "<group>"; };
+		8C39D6A91CE0CA3F007F26E8 /* GreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenVC.xib; sourceTree = "<group>"; };
+		8C39D6AC1CE0CCF6007F26E8 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		8C39D6AD1CE0CCF6007F26E8 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		8C39D6AE1CE0CCF6007F26E8 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		8C42C1DC1CE0FF8D002B64B6 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		8C42C1DD1CE0FF8D002B64B6 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		8C42C1DE1CE0FF8D002B64B6 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
 		8CED76201CDE42B30028C950 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CED76241CDE42B30028C950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CED76261CDE42B30028C950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CED76271CDE42B30028C950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CED76291CDE42B30028C950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CED762A1CDE42B30028C950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8CED762D1CDE42B30028C950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CED762F1CDE42B30028C950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CED76321CDE42B30028C950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CED76341CDE42B30028C950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CED763B1CDE67C30028C950 /* RedPortraitStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RedPortraitStoryboard.storyboard; sourceTree = "<group>"; };
+		8CED763D1CDF201E0028C950 /* GreenLandscapeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GreenLandscapeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5391BE882D0768333278F004 /* Pods_Example.framework in Frameworks */,
+				979A04AD2B1DF921A398D645 /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +86,7 @@
 		80EA0A2BFD164A7A1B3EFA90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00ADB9A2E39B6C8BAE3E5C6E /* Pods_Example.framework */,
+				5D0FDD731243861A7D8EBEE5 /* libPods-Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,13 +114,29 @@
 			children = (
 				8CED76261CDE42B30028C950 /* AppDelegate.h */,
 				8CED76271CDE42B30028C950 /* AppDelegate.m */,
-				8CED76291CDE42B30028C950 /* ViewController.h */,
-				8CED762A1CDE42B30028C950 /* ViewController.m */,
-				8CED762C1CDE42B30028C950 /* Main.storyboard */,
+				8CED763A1CDE67A80028C950 /* Storyboards */,
 				8CED762F1CDE42B30028C950 /* Assets.xcassets */,
 				8CED76311CDE42B30028C950 /* LaunchScreen.storyboard */,
 				8CED76341CDE42B30028C950 /* Info.plist */,
 				8CED76231CDE42B30028C950 /* Supporting Files */,
+				8C39D6981CE0A83C007F26E8 /* SIONavigationController.h */,
+				8C39D6991CE0A83C007F26E8 /* SIONavigationController.m */,
+				8C39D69B1CE0C903007F26E8 /* LandscapeVC.h */,
+				8C39D69C1CE0C903007F26E8 /* LandscapeVC.m */,
+				8C39D69E1CE0C9C6007F26E8 /* PortraitVC.h */,
+				8C39D69F1CE0C9C6007F26E8 /* PortraitVC.m */,
+				8C39D6A21CE0CA2E007F26E8 /* RedVC.h */,
+				8C39D6A31CE0CA2E007F26E8 /* RedVC.m */,
+				8C39D6A41CE0CA2E007F26E8 /* RedVC.xib */,
+				8C39D6A71CE0CA3F007F26E8 /* GreenVC.h */,
+				8C39D6A81CE0CA3F007F26E8 /* GreenVC.m */,
+				8C39D6A91CE0CA3F007F26E8 /* GreenVC.xib */,
+				8C39D6AC1CE0CCF6007F26E8 /* MainVC.h */,
+				8C39D6AD1CE0CCF6007F26E8 /* MainVC.m */,
+				8C39D6AE1CE0CCF6007F26E8 /* MainVC.xib */,
+				8C42C1DC1CE0FF8D002B64B6 /* TestVC.h */,
+				8C42C1DD1CE0FF8D002B64B6 /* TestVC.m */,
+				8C42C1DE1CE0FF8D002B64B6 /* TestVC.xib */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -101,6 +147,16 @@
 				8CED76241CDE42B30028C950 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CED763A1CDE67A80028C950 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CED762C1CDE42B30028C950 /* Main.storyboard */,
+				8CED763B1CDE67C30028C950 /* RedPortraitStoryboard.storyboard */,
+				8CED763D1CDF201E0028C950 /* GreenLandscapeStoryboard.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +220,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C39D6B11CE0E680007F26E8 /* Main.storyboard in Resources */,
+				8CED763E1CDF201E0028C950 /* GreenLandscapeStoryboard.storyboard in Resources */,
+				8C42C1E01CE0FF8D002B64B6 /* TestVC.xib in Resources */,
+				8C39D6B01CE0CCF6007F26E8 /* MainVC.xib in Resources */,
 				8CED76331CDE42B30028C950 /* LaunchScreen.storyboard in Resources */,
+				8C39D6AB1CE0CA3F007F26E8 /* GreenVC.xib in Resources */,
+				8C39D6A61CE0CA2E007F26E8 /* RedVC.xib in Resources */,
 				8CED76301CDE42B30028C950 /* Assets.xcassets in Resources */,
-				8CED762E1CDE42B30028C950 /* Main.storyboard in Resources */,
+				8CED763C1CDE67C40028C950 /* RedPortraitStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CED762B1CDE42B30028C950 /* ViewController.m in Sources */,
+				8C39D6A51CE0CA2E007F26E8 /* RedVC.m in Sources */,
+				8C39D6AF1CE0CCF6007F26E8 /* MainVC.m in Sources */,
+				8C39D69D1CE0C903007F26E8 /* LandscapeVC.m in Sources */,
+				8C42C1DF1CE0FF8D002B64B6 /* TestVC.m in Sources */,
 				8CED76281CDE42B30028C950 /* AppDelegate.m in Sources */,
+				8C39D6A01CE0C9C6007F26E8 /* PortraitVC.m in Sources */,
+				8C39D69A1CE0A83C007F26E8 /* SIONavigationController.m in Sources */,
 				8CED76251CDE42B30028C950 /* main.m in Sources */,
+				8C39D6AA1CE0CA3F007F26E8 /* GreenVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.easy.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.easy.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Lty-GL-kEu">
+            <objects>
+                <navigationController storyboardIdentifier="navigationGreen" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="dji-2z-bhD" customClass="SIONavigationController" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="J5c-bL-tlo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="66G-qo-xRZ" kind="relationship" relationship="rootViewController" id="f5M-y6-0zk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8q-nv-zwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-568" y="321"/>
+        </scene>
+        <!--GreenVC-->
+        <scene sceneID="vkS-9O-jMJ">
+            <objects>
+                <viewController storyboardIdentifier="greenVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="66G-qo-xRZ" customClass="GreenVC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ioT-s7-QjG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2u5-bO-0U3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="182" y="363"/>
+        </scene>
+    </scenes>
+</document>

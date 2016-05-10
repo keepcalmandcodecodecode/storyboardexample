@@ -1,0 +1,46 @@
+//
+//  PortraitVC.m
+//  Example
+//
+//  Created by macmini1 on 09.05.16.
+//  Copyright © 2016 easy. All rights reserved.
+//
+
+#import "PortraitVC.h"
+#import "AppDelegate.h"
+
+@interface PortraitVC ()
+
+@end
+
+@implementation PortraitVC
+
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    //[UIViewController attemptRotationToDeviceOrientation];
+    
+}
+
+
+@end

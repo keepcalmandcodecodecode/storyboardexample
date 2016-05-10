@@ -1,6 +1,0 @@
-framework module UIViewController_Routing {
-  umbrella header "UIViewController+Routing-umbrella.h"
-
-  export *
-  module * { export * }
-}
