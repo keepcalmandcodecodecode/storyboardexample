@@ -16,7 +16,7 @@
 
 - (BOOL)shouldAutorotate
 {
-    return !UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation);
+    return UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation);
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations

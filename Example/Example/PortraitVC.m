@@ -17,16 +17,18 @@
 
 - (BOOL)shouldAutorotate
 {
-    return NO;
+    return UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation);
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
+    NSLog(@"Supported interface orientations");
     return UIInterfaceOrientationMaskPortrait;
 }
 
 -(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
+    NSLog(@"preferred intreface orientations");
     return UIInterfaceOrientationPortrait;
 }
 
@@ -38,8 +40,10 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    //[UIViewController attemptRotationToDeviceOrientation];
-    
+    if(UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation))
+    {
+        [UIViewController attemptRotationToDeviceOrientation];
+    }
 }
 
 

@@ -16,7 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.currentOrientation = UIInterfaceOrientationMaskAll;
     // Override point for customization after application launch.
     return YES;
 }
