@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RedVC">
             <connections>
+                <outlet property="label" destination="7P1-aI-VwY" id="nIc-N2-ap8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,9 +22,17 @@
                     <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7P1-aI-VwY">
+                    <rect key="frame" x="279" y="290" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.66990840519999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstItem="7P1-aI-VwY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1mY-6j-NuH"/>
+                <constraint firstItem="7P1-aI-VwY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="K0c-iN-SZI"/>
                 <constraint firstItem="XOF-nb-NvF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="UNi-oz-RBd"/>
                 <constraint firstItem="XOF-nb-NvF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="oKN-JJ-18d"/>
             </constraints>

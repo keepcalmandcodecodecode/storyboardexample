@@ -16,7 +16,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Pmy-IC-bzL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Odk-Zu-pJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="Txg-II-aEA" customClass="SIONavigationController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NVr-Ax-DjN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -26,6 +25,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3C7-vG-ucl"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Odk-Zu-pJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1044" y="392"/>
         </scene>
@@ -52,7 +52,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="RedPortraitStoryboard"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="sceneIdentifier" value="navigationRed"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="sceneIdentifier" value="redVC"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZCU-k9-jaB" userLabel="First Responder" sceneMemberID="firstResponder"/>

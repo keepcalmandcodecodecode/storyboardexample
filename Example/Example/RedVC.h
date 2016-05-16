@@ -10,5 +10,6 @@
 #import "PortraitVC.h"
 
 @interface RedVC : PortraitVC
-
+@property (strong,nonatomic) NSString *name;
+- (void)configureWith:(NSString*)name;
 @end

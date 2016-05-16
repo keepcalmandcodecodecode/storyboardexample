@@ -7,6 +7,9 @@
 //
 
 #import "MainVC.h"
+#import "RedVC.h"
+#import "GreenVC.h"
+#import <RBStoryboardLink/RBStoryboardLink.h>
 
 @interface MainVC ()
 
@@ -41,6 +44,17 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if([segue.identifier isEqualToString:@"showRedVC"])
+    {
+        RBStoryboardLink *link = segue.destinationViewController;
+        RedVC *dvc = (RedVC*)link.scene;
+        [dvc configureWith:@"RED"];
+    }
+    else if([segue.identifier isEqualToString:@"showGREENVC"])
+    {
+        GreenVC *greenVC = segue.destinationViewController;
+        [greenVC configureWith:@"GREEN"];
+    }
 }
 
 @end

@@ -10,5 +10,6 @@
 #import "LandscapeVC.h"
 
 @interface GreenVC : LandscapeVC
-
+@property (strong,nonatomic) NSString *name;
+- (void)configureWith:(NSString*)name;
 @end

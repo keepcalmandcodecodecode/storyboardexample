@@ -25,7 +25,7 @@
         <!--RedVC-->
         <scene sceneID="ZsR-dR-SAi">
             <objects>
-                <viewController id="VBO-jx-o36" customClass="RedVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="redVC" id="VBO-jx-o36" customClass="RedVC" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="rAF-2B-oFi"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </viewController>

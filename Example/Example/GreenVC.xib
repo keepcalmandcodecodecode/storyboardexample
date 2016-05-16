@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GreenVC">
             <connections>
+                <outlet property="label" destination="q0G-WK-igu" id="J8E-9X-vsP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,11 +22,19 @@
                         <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0G-WK-igu">
+                    <rect key="frame" x="279" y="290" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.28235294119999998" green="0.62745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="thw-dz-io1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="3vm-Uc-TID"/>
                 <constraint firstItem="thw-dz-io1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="H3v-cX-gZE"/>
+                <constraint firstItem="q0G-WK-igu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Mh1-HA-RGt"/>
+                <constraint firstItem="q0G-WK-igu" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="go4-J1-etd"/>
             </constraints>
         </view>
     </objects>

@@ -22,13 +22,11 @@
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    NSLog(@"Supported interface orientations");
     return UIInterfaceOrientationMaskPortrait;
 }
 
 -(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
-    NSLog(@"preferred intreface orientations");
     return UIInterfaceOrientationPortrait;
 }
 
@@ -45,6 +43,5 @@
         [UIViewController attemptRotationToDeviceOrientation];
     }
 }
-
 
 @end
