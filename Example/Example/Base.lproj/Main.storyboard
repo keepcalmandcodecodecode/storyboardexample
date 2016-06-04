@@ -67,7 +67,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="GreenLandscapeStoryboard"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="sceneIdentifier" value="navigationGreen"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="sceneIdentifier" value="greenVC"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5P-Qb-bSf" userLabel="First Responder" sceneMemberID="firstResponder"/>

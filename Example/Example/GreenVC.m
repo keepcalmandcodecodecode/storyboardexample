@@ -22,6 +22,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [self configureWith:self.name];
 }
 
 - (void)viewDidAppear:(BOOL)animated

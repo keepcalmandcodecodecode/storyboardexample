@@ -7,105 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAB6D8D51EA711AE2DB94958A0CAD27 /* RBStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFCA818AD474143964A46D5F78E3EB6 /* RBStoryboardSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EC3A33459CE68EE1C01CA8D5265F123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
-		1D2C28CBF07E32A2BA67602FE566FE41 /* UIViewController+RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = BD33ECE7C76BFAE6ED36C324F1FEA126 /* UIViewController+RBStoryboardLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D7FEB0AB6CD2B7BD5110CFCA9348C94 /* RBStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F216FBE5713EF9737EA77F3DCC52A1A /* RBStoryboardPopoverSegue.m */; };
-		21AEA75C51BF8F214807DFEB1CF25564 /* RBStoryboardModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 79568A476321AD11849DF503291707A3 /* RBStoryboardModalSegue.m */; };
-		25F8312C606C76B6F13144CC9FC65EBB /* RBStoryboardLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FAF658225C2DF05D214680F296F455 /* RBStoryboardLink-dummy.m */; };
-		4E4640FB8943F2DC0F8BD15FD6A1FD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
-		4EE08349743BF0945116826A53F1A84E /* RBStoryboardLinkSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E08A0E39EE784C17B11B575A1D42A6 /* RBStoryboardLinkSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		874DEA0C49FC373C5E30E4C928EAF01F /* RBStoryboardPushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7BE4C039459DE28798B7C97134065D /* RBStoryboardPushSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93FF7F77DC72FA59F6698B21E37BA052 /* RBStoryboardPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F75127BCD1D13325B0DBEFE9A1A8901 /* RBStoryboardPushSegue.m */; };
-		941752F621C29CFD66F474FA6521DE26 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
-		94F88ABCE4666BF745A9866174B143DE /* RBStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C72697D459DC4D2979DA25C8F44C1574 /* RBStoryboardSegue.m */; };
-		9A6675EB6429EF546082B9A25645A968 /* RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9459DF9937C2CAD1FB10F5942A3E0A82 /* RBStoryboardLink.m */; };
-		A16C7F44B0373EED6D0B319C49CF77AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */; };
-		A819228CF436E3626C270D9FAC117A69 /* RBStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CB1D16388DCA7639B234DF7AB4FF92 /* RBStoryboardPopoverSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCE9D404BAD3955F26F069649C78E209 /* RBStoryboardModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5892100C23D770D81280BE116DABE11D /* RBStoryboardModalSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E93E327B7E82A4F1438B7AA8656EEE8F /* UIViewController+RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A78565ED1571AE84605074BB3044B7E /* UIViewController+RBStoryboardLink.m */; };
-		FE52C4E5F22E0791B72676343E6AA1ED /* RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E36B0833D9495FE106E2FE0E3C6BDDF /* RBStoryboardLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B668C0E64287D0B5E9B8D6B4DC9A946 /* RBStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9A253C466C8E9BA82BD86DEE779534 /* RBStoryboardPopoverSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F65C2617DB805F8AB4D53A557B647AD /* RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF7544ACC0EDCCEBB84D6D6BE9B88 /* RBStoryboardLink.m */; };
+		17F10BB34CFB5644918BD1F0ABA14546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		27A6D690DD921AD2ABE00B321B22950B /* UIViewController+RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C1E37D997D5FB99333F2FFE3130A50 /* UIViewController+RBStoryboardLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411F95E4813D6F3A0B431E30F8199929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		479B3941D1F4813115F8752EEA3001B1 /* RBStoryboardModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04182D8943A08AFC78026533CF024827 /* RBStoryboardModalSegue.m */; };
+		494D1638C678FD4DBEE616526D7F5196 /* RBStoryboardModalSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D5A1E951CB3244E739F5275A78C53B /* RBStoryboardModalSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F32492048C3AB50A40D794EC9A4085 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */; };
+		52C138F397914B1CC1DA7A995760F8F7 /* RBStoryboardPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4183D6F5C7DCF293CBDDDB43F0B6BD80 /* RBStoryboardPushSegue.m */; };
+		74385C1486DF21D42F49523A79AC7285 /* RBStoryboardPushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E58DD941FC275B7C3E8A2C00759DA3 /* RBStoryboardPushSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F8F700FEEFDA970AC51CC5E4164FC7 /* RBStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B19FFBFBF9DC7B42FB14FE1009D07058 /* RBStoryboardPopoverSegue.m */; };
+		7D954087B4E25D8CD7B07A87AECD3133 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */; };
+		85AF51CC52E0907341C1A984E621BA03 /* RBStoryboardSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F35DB79B0C98606D018A06EF1C1322 /* RBStoryboardSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4236F97B2B5CAC01E6AC64C5A1A013 /* UIViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1BFB2C3A3179BCFE6BF105BCD46010 /* UIViewController+Routing.m */; };
+		91A7015DE814F58D963BAFD5B3468ABD /* RBStoryboardLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF5C118D8B4BAF414AF83AB61EB174 /* RBStoryboardLink-dummy.m */; };
+		970F8BA066006951CD711C3F59BF63F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D635D41133915B228CE899EF89DD95CE /* Foundation.framework */; };
+		D008EED42CCFCD2B70ED6988F184770A /* RBStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F66FB0437A9D33BB4BE07FAC5BC47A4 /* RBStoryboardSegue.m */; };
+		DC3E66957977DC4F0C68C9259FFC8A5C /* UIViewController+Routing.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDDF30A6FDBB122B67F676B5E49D03B /* UIViewController+Routing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E002480B358F8328BCDFDD2FF8A278A2 /* UIViewController+RBStoryboardLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A5F406837DAD78CD7B8F80F2BE138F /* UIViewController+RBStoryboardLink.m */; };
+		E200C590DED05E9EE4D3C81BD0FF09EF /* RBStoryboardLinkSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A12B81D17B1CE61329E0AB534DFB24 /* RBStoryboardLinkSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D8A46835ACED2568AB3A472CBCB9FE /* RBStoryboardLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 775C9FED0BC6A10639E6037F9DCCB3F0 /* RBStoryboardLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F1BC8CA17E6A5E703382BA71A6B621 /* UIViewController+Routing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED8B359E2A211D274AB60377845349 /* UIViewController+Routing-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E10F9E5C9A0674EADA181BF360491D0 /* PBXContainerItemProxy */ = {
+		3906B61E14EC4AD17B0E368C7BB1C927 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8065399CEA614160D550C889ED8A5E5D;
+			remoteGlobalIDString = 20F0AA2F86904DF1CFB2DEABFB805667;
 			remoteInfo = RBStoryboardLink;
+		};
+		F9A0AD0F99AA0846758FFDFB17A0EBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F176B591448FAB48920A55167205A20C;
+			remoteInfo = "UIViewController+Routing";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00228347DBA1772ABB0CEA0A5C47DE63 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04182D8943A08AFC78026533CF024827 /* RBStoryboardModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardModalSegue.m; path = Classes/RBStoryboardModalSegue.m; sourceTree = "<group>"; };
+		06F35DB79B0C98606D018A06EF1C1322 /* RBStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardSegue.h; path = Classes/RBStoryboardSegue.h; sourceTree = "<group>"; };
 		0AECF4A22395C2FDE55673592687C1AB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F75127BCD1D13325B0DBEFE9A1A8901 /* RBStoryboardPushSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPushSegue.m; path = Classes/RBStoryboardPushSegue.m; sourceTree = "<group>"; };
-		1F216FBE5713EF9737EA77F3DCC52A1A /* RBStoryboardPopoverSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPopoverSegue.m; path = Classes/RBStoryboardPopoverSegue.m; sourceTree = "<group>"; };
-		29ECCFF012C303DC5CFAEB46A04CD106 /* libRBStoryboardLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRBStoryboardLink.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ED8B359E2A211D274AB60377845349 /* UIViewController+Routing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Routing-dummy.m"; sourceTree = "<group>"; };
 		2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E36B0833D9495FE106E2FE0E3C6BDDF /* RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLink.h; path = Classes/RBStoryboardLink.h; sourceTree = "<group>"; };
-		5892100C23D770D81280BE116DABE11D /* RBStoryboardModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardModalSegue.h; path = Classes/RBStoryboardModalSegue.h; sourceTree = "<group>"; };
+		396FEC0BF7E767BCECA94E7AC2E5DC5C /* UIViewController+Routing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIViewController+Routing.xcconfig"; sourceTree = "<group>"; };
+		3DCEF7544ACC0EDCCEBB84D6D6BE9B88 /* RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardLink.m; path = Classes/RBStoryboardLink.m; sourceTree = "<group>"; };
+		4183D6F5C7DCF293CBDDDB43F0B6BD80 /* RBStoryboardPushSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPushSegue.m; path = Classes/RBStoryboardPushSegue.m; sourceTree = "<group>"; };
+		5274DCD6439C4FD13A2806A5A672A868 /* UIViewController+Routing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Routing-prefix.pch"; sourceTree = "<group>"; };
 		5AC126EEC71A1BC407FE1D9DB3984EF4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		6B9A253C466C8E9BA82BD86DEE779534 /* RBStoryboardPopoverSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPopoverSegue.h; path = Classes/RBStoryboardPopoverSegue.h; sourceTree = "<group>"; };
 		74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		79568A476321AD11849DF503291707A3 /* RBStoryboardModalSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardModalSegue.m; path = Classes/RBStoryboardModalSegue.m; sourceTree = "<group>"; };
+		775C9FED0BC6A10639E6037F9DCCB3F0 /* RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLink.h; path = Classes/RBStoryboardLink.h; sourceTree = "<group>"; };
 		7A17B2D7486AA2A9CFA43FE47668BC7C /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		853BB94042284CB4296D1239BE467FB0 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		89FAF658225C2DF05D214680F296F455 /* RBStoryboardLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBStoryboardLink-dummy.m"; sourceTree = "<group>"; };
-		8DFCA818AD474143964A46D5F78E3EB6 /* RBStoryboardSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardSegue.h; path = Classes/RBStoryboardSegue.h; sourceTree = "<group>"; };
+		8F66FB0437A9D33BB4BE07FAC5BC47A4 /* RBStoryboardSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardSegue.m; path = Classes/RBStoryboardSegue.m; sourceTree = "<group>"; };
+		9385C5D23A803EDC48D58198301B771B /* RBStoryboardLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBStoryboardLink.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9459DF9937C2CAD1FB10F5942A3E0A82 /* RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardLink.m; path = Classes/RBStoryboardLink.m; sourceTree = "<group>"; };
-		95CB1D16388DCA7639B234DF7AB4FF92 /* RBStoryboardPopoverSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPopoverSegue.h; path = Classes/RBStoryboardPopoverSegue.h; sourceTree = "<group>"; };
-		9A78565ED1571AE84605074BB3044B7E /* UIViewController+RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RBStoryboardLink.m"; path = "Classes/UIViewController+RBStoryboardLink.m"; sourceTree = "<group>"; };
-		A5E08A0E39EE784C17B11B575A1D42A6 /* RBStoryboardLinkSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLinkSource.h; path = Classes/RBStoryboardLinkSource.h; sourceTree = "<group>"; };
+		99C1E37D997D5FB99333F2FFE3130A50 /* UIViewController+RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RBStoryboardLink.h"; path = "Classes/UIViewController+RBStoryboardLink.h"; sourceTree = "<group>"; };
+		A9A5F406837DAD78CD7B8F80F2BE138F /* UIViewController+RBStoryboardLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RBStoryboardLink.m"; path = "Classes/UIViewController+RBStoryboardLink.m"; sourceTree = "<group>"; };
+		AD1BFB2C3A3179BCFE6BF105BCD46010 /* UIViewController+Routing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Routing.m"; path = "Classes/UIViewController+Routing.m"; sourceTree = "<group>"; };
 		AF066F8D85A4D7A3B3A04D25E4D2AC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BA7BE4C039459DE28798B7C97134065D /* RBStoryboardPushSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPushSegue.h; path = Classes/RBStoryboardPushSegue.h; sourceTree = "<group>"; };
-		BD33ECE7C76BFAE6ED36C324F1FEA126 /* UIViewController+RBStoryboardLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RBStoryboardLink.h"; path = "Classes/UIViewController+RBStoryboardLink.h"; sourceTree = "<group>"; };
+		B19FFBFBF9DC7B42FB14FE1009D07058 /* RBStoryboardPopoverSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardPopoverSegue.m; path = Classes/RBStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		B1D5A1E951CB3244E739F5275A78C53B /* RBStoryboardModalSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardModalSegue.h; path = Classes/RBStoryboardModalSegue.h; sourceTree = "<group>"; };
+		B5E58DD941FC275B7C3E8A2C00759DA3 /* RBStoryboardPushSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardPushSegue.h; path = Classes/RBStoryboardPushSegue.h; sourceTree = "<group>"; };
+		C05642436A9F89F084F0FF48294D71D2 /* libRBStoryboardLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRBStoryboardLink.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E3D4A869A4034AC4D2D2194B92A7A0 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		C72697D459DC4D2979DA25C8F44C1574 /* RBStoryboardSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBStoryboardSegue.m; path = Classes/RBStoryboardSegue.m; sourceTree = "<group>"; };
-		D59B832341C2880F15D361FF8B0DF77D /* RBStoryboardLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBStoryboardLink-prefix.pch"; sourceTree = "<group>"; };
 		D635D41133915B228CE899EF89DD95CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F43E9E88E16AF02C7D02EB8858A09F39 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2657354E871437531C450ACFDC9CAA /* RBStoryboardLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBStoryboardLink.xcconfig; sourceTree = "<group>"; };
+		D6FAE99FD29D72787085FA8BA33C96D9 /* libUIViewController+Routing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIViewController+Routing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A12B81D17B1CE61329E0AB534DFB24 /* RBStoryboardLinkSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBStoryboardLinkSource.h; path = Classes/RBStoryboardLinkSource.h; sourceTree = "<group>"; };
+		E0C02D26B50447635CEA6DCAC1A1B237 /* RBStoryboardLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBStoryboardLink-prefix.pch"; sourceTree = "<group>"; };
+		EEDDF30A6FDBB122B67F676B5E49D03B /* UIViewController+Routing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Routing.h"; path = "Classes/UIViewController+Routing.h"; sourceTree = "<group>"; };
+		FADF5C118D8B4BAF414AF83AB61EB174 /* RBStoryboardLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBStoryboardLink-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A454C16CE9C908A0FD5B3A3E90FF3F0 /* Frameworks */ = {
+		81A65FF143ABE18F51AE14B3B71A0987 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4640FB8943F2DC0F8BD15FD6A1FD4F /* Foundation.framework in Frameworks */,
+				411F95E4813D6F3A0B431E30F8199929 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DC2EB74741FBBDC37039E4F65F28DC3 /* Frameworks */ = {
+		B62949279683B04E119C047E3AC57048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC3A33459CE68EE1C01CA8D5265F123 /* Foundation.framework in Frameworks */,
-				A16C7F44B0373EED6D0B319C49CF77AF /* UIKit.framework in Frameworks */,
+				970F8BA066006951CD711C3F59BF63F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5FA2FD42902F840C82513FF150B9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F10BB34CFB5644918BD1F0ABA14546 /* Foundation.framework in Frameworks */,
+				49F32492048C3AB50A40D794EC9A4085 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E005CC01A566D0F5C07BF119A6D64CF /* RBStoryboardLink */ = {
+		3C364929E7642C870A2E132E721CB9CE /* RBStoryboardLink */ = {
 			isa = PBXGroup;
 			children = (
-				4E36B0833D9495FE106E2FE0E3C6BDDF /* RBStoryboardLink.h */,
-				9459DF9937C2CAD1FB10F5942A3E0A82 /* RBStoryboardLink.m */,
-				A5E08A0E39EE784C17B11B575A1D42A6 /* RBStoryboardLinkSource.h */,
-				5892100C23D770D81280BE116DABE11D /* RBStoryboardModalSegue.h */,
-				79568A476321AD11849DF503291707A3 /* RBStoryboardModalSegue.m */,
-				95CB1D16388DCA7639B234DF7AB4FF92 /* RBStoryboardPopoverSegue.h */,
-				1F216FBE5713EF9737EA77F3DCC52A1A /* RBStoryboardPopoverSegue.m */,
-				BA7BE4C039459DE28798B7C97134065D /* RBStoryboardPushSegue.h */,
-				0F75127BCD1D13325B0DBEFE9A1A8901 /* RBStoryboardPushSegue.m */,
-				8DFCA818AD474143964A46D5F78E3EB6 /* RBStoryboardSegue.h */,
-				C72697D459DC4D2979DA25C8F44C1574 /* RBStoryboardSegue.m */,
-				BD33ECE7C76BFAE6ED36C324F1FEA126 /* UIViewController+RBStoryboardLink.h */,
-				9A78565ED1571AE84605074BB3044B7E /* UIViewController+RBStoryboardLink.m */,
-				7A856D7BA93E7D2019CB5CF66E48DD02 /* Support Files */,
+				775C9FED0BC6A10639E6037F9DCCB3F0 /* RBStoryboardLink.h */,
+				3DCEF7544ACC0EDCCEBB84D6D6BE9B88 /* RBStoryboardLink.m */,
+				D7A12B81D17B1CE61329E0AB534DFB24 /* RBStoryboardLinkSource.h */,
+				B1D5A1E951CB3244E739F5275A78C53B /* RBStoryboardModalSegue.h */,
+				04182D8943A08AFC78026533CF024827 /* RBStoryboardModalSegue.m */,
+				6B9A253C466C8E9BA82BD86DEE779534 /* RBStoryboardPopoverSegue.h */,
+				B19FFBFBF9DC7B42FB14FE1009D07058 /* RBStoryboardPopoverSegue.m */,
+				B5E58DD941FC275B7C3E8A2C00759DA3 /* RBStoryboardPushSegue.h */,
+				4183D6F5C7DCF293CBDDDB43F0B6BD80 /* RBStoryboardPushSegue.m */,
+				06F35DB79B0C98606D018A06EF1C1322 /* RBStoryboardSegue.h */,
+				8F66FB0437A9D33BB4BE07FAC5BC47A4 /* RBStoryboardSegue.m */,
+				99C1E37D997D5FB99333F2FFE3130A50 /* UIViewController+RBStoryboardLink.h */,
+				A9A5F406837DAD78CD7B8F80F2BE138F /* UIViewController+RBStoryboardLink.m */,
+				E1170E5F6DCD6FC2E4BD59EE2ED78EBB /* Support Files */,
 			);
 			path = RBStoryboardLink;
 			sourceTree = "<group>";
@@ -141,43 +166,36 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		6FF7D8DEF1B2BEC4FA8EE427F30DFAEC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1E005CC01A566D0F5C07BF119A6D64CF /* RBStoryboardLink */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7A856D7BA93E7D2019CB5CF66E48DD02 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC2657354E871437531C450ACFDC9CAA /* RBStoryboardLink.xcconfig */,
-				89FAF658225C2DF05D214680F296F455 /* RBStoryboardLink-dummy.m */,
-				D59B832341C2880F15D361FF8B0DF77D /* RBStoryboardLink-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RBStoryboardLink";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6FF7D8DEF1B2BEC4FA8EE427F30DFAEC /* Pods */,
-				B654CC647BFD724075B82CF8E3C0FFCB /* Products */,
+				F8281C93F719BDD383A508D768490926 /* Pods */,
+				99E58F206473E45002BC696DFA6E5C94 /* Products */,
 				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B654CC647BFD724075B82CF8E3C0FFCB /* Products */ = {
+		99E58F206473E45002BC696DFA6E5C94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F43E9E88E16AF02C7D02EB8858A09F39 /* libPods-Example.a */,
-				29ECCFF012C303DC5CFAEB46A04CD106 /* libRBStoryboardLink.a */,
+				00228347DBA1772ABB0CEA0A5C47DE63 /* libPods-Example.a */,
+				C05642436A9F89F084F0FF48294D71D2 /* libRBStoryboardLink.a */,
+				D6FAE99FD29D72787085FA8BA33C96D9 /* libUIViewController+Routing.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E1170E5F6DCD6FC2E4BD59EE2ED78EBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9385C5D23A803EDC48D58198301B771B /* RBStoryboardLink.xcconfig */,
+				FADF5C118D8B4BAF414AF83AB61EB174 /* RBStoryboardLink-dummy.m */,
+				E0C02D26B50447635CEA6DCAC1A1B237 /* RBStoryboardLink-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RBStoryboardLink";
 			sourceTree = "<group>";
 		};
 		E294F3BD993E240DCFCB4DC1329C9F36 /* iOS */ = {
@@ -189,50 +207,71 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E64745AA79C33850E2BA09583123F2BD /* UIViewController+Routing */ = {
+			isa = PBXGroup;
+			children = (
+				EEDDF30A6FDBB122B67F676B5E49D03B /* UIViewController+Routing.h */,
+				AD1BFB2C3A3179BCFE6BF105BCD46010 /* UIViewController+Routing.m */,
+				EAB9CE658F1C0C32CB31F5225459018B /* Support Files */,
+			);
+			path = "UIViewController+Routing";
+			sourceTree = "<group>";
+		};
+		EAB9CE658F1C0C32CB31F5225459018B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				396FEC0BF7E767BCECA94E7AC2E5DC5C /* UIViewController+Routing.xcconfig */,
+				25ED8B359E2A211D274AB60377845349 /* UIViewController+Routing-dummy.m */,
+				5274DCD6439C4FD13A2806A5A672A868 /* UIViewController+Routing-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIViewController+Routing";
+			sourceTree = "<group>";
+		};
+		F8281C93F719BDD383A508D768490926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C364929E7642C870A2E132E721CB9CE /* RBStoryboardLink */,
+				E64745AA79C33850E2BA09583123F2BD /* UIViewController+Routing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B8A2FE834CF843D01ACBC20C2E627CB0 /* Headers */ = {
+		31355FBA4A73A3D2E612ED93940F2A28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE52C4E5F22E0791B72676343E6AA1ED /* RBStoryboardLink.h in Headers */,
-				4EE08349743BF0945116826A53F1A84E /* RBStoryboardLinkSource.h in Headers */,
-				BCE9D404BAD3955F26F069649C78E209 /* RBStoryboardModalSegue.h in Headers */,
-				A819228CF436E3626C270D9FAC117A69 /* RBStoryboardPopoverSegue.h in Headers */,
-				874DEA0C49FC373C5E30E4C928EAF01F /* RBStoryboardPushSegue.h in Headers */,
-				0EAB6D8D51EA711AE2DB94958A0CAD27 /* RBStoryboardSegue.h in Headers */,
-				1D2C28CBF07E32A2BA67602FE566FE41 /* UIViewController+RBStoryboardLink.h in Headers */,
+				DC3E66957977DC4F0C68C9259FFC8A5C /* UIViewController+Routing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0977F58C6B662F54BAE37064DE78A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D8A46835ACED2568AB3A472CBCB9FE /* RBStoryboardLink.h in Headers */,
+				E200C590DED05E9EE4D3C81BD0FF09EF /* RBStoryboardLinkSource.h in Headers */,
+				494D1638C678FD4DBEE616526D7F5196 /* RBStoryboardModalSegue.h in Headers */,
+				0B668C0E64287D0B5E9B8D6B4DC9A946 /* RBStoryboardPopoverSegue.h in Headers */,
+				74385C1486DF21D42F49523A79AC7285 /* RBStoryboardPushSegue.h in Headers */,
+				85AF51CC52E0907341C1A984E621BA03 /* RBStoryboardSegue.h in Headers */,
+				27A6D690DD921AD2ABE00B321B22950B /* UIViewController+RBStoryboardLink.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34C650135CCEB8D9081EED7FA19720F8 /* Pods-Example */ = {
+		20F0AA2F86904DF1CFB2DEABFB805667 /* RBStoryboardLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A26AF6AEC7A4AC2B4E449862654A68BA /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = A3715951E524A88A8C97E6FA9BF69B67 /* Build configuration list for PBXNativeTarget "RBStoryboardLink" */;
 			buildPhases = (
-				3B90605EA661B15C844041D4784855BA /* Sources */,
-				5A454C16CE9C908A0FD5B3A3E90FF3F0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F284C5861DBFC5B3A7AFC8B6D76FD2CC /* PBXTargetDependency */,
-			);
-			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = F43E9E88E16AF02C7D02EB8858A09F39 /* libPods-Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8065399CEA614160D550C889ED8A5E5D /* RBStoryboardLink */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4E808AD8FF34BE669ADED046E759908 /* Build configuration list for PBXNativeTarget "RBStoryboardLink" */;
-			buildPhases = (
-				E9A684C69C27FC2C063B40AB9B14C1ED /* Sources */,
-				8DC2EB74741FBBDC37039E4F65F28DC3 /* Frameworks */,
-				B8A2FE834CF843D01ACBC20C2E627CB0 /* Headers */,
+				7BDAD7CEC806B0CAF8E959ADE9EB4DA2 /* Sources */,
+				DC5FA2FD42902F840C82513FF150B9C9 /* Frameworks */,
+				3E0977F58C6B662F54BAE37064DE78A1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -240,7 +279,42 @@
 			);
 			name = RBStoryboardLink;
 			productName = RBStoryboardLink;
-			productReference = 29ECCFF012C303DC5CFAEB46A04CD106 /* libRBStoryboardLink.a */;
+			productReference = C05642436A9F89F084F0FF48294D71D2 /* libRBStoryboardLink.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49121F23A51FDBF63CBFC44007A9A15A /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5058A97D68BA0A961C154934783D86 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				1E1903B9A8CFEF6DF9A27DF8CCC91870 /* Sources */,
+				81A65FF143ABE18F51AE14B3B71A0987 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7117F7725F31055420A3C6492B8364A9 /* PBXTargetDependency */,
+				50B9A46CD2C7AABEA31B6B45E5ABACAA /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 00228347DBA1772ABB0CEA0A5C47DE63 /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F176B591448FAB48920A55167205A20C /* UIViewController+Routing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7E1594A6AD7C43CF3948C7FEDCC7E2 /* Build configuration list for PBXNativeTarget "UIViewController+Routing" */;
+			buildPhases = (
+				F51A1E7A59D971D89B284A90BF126DB6 /* Sources */,
+				B62949279683B04E119C047E3AC57048 /* Frameworks */,
+				31355FBA4A73A3D2E612ED93940F2A28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController+Routing";
+			productName = "UIViewController+Routing";
+			productReference = D6FAE99FD29D72787085FA8BA33C96D9 /* libUIViewController+Routing.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -260,60 +334,76 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B654CC647BFD724075B82CF8E3C0FFCB /* Products */;
+			productRefGroup = 99E58F206473E45002BC696DFA6E5C94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34C650135CCEB8D9081EED7FA19720F8 /* Pods-Example */,
-				8065399CEA614160D550C889ED8A5E5D /* RBStoryboardLink */,
+				49121F23A51FDBF63CBFC44007A9A15A /* Pods-Example */,
+				20F0AA2F86904DF1CFB2DEABFB805667 /* RBStoryboardLink */,
+				F176B591448FAB48920A55167205A20C /* UIViewController+Routing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B90605EA661B15C844041D4784855BA /* Sources */ = {
+		1E1903B9A8CFEF6DF9A27DF8CCC91870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				941752F621C29CFD66F474FA6521DE26 /* Pods-Example-dummy.m in Sources */,
+				7D954087B4E25D8CD7B07A87AECD3133 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9A684C69C27FC2C063B40AB9B14C1ED /* Sources */ = {
+		7BDAD7CEC806B0CAF8E959ADE9EB4DA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F8312C606C76B6F13144CC9FC65EBB /* RBStoryboardLink-dummy.m in Sources */,
-				9A6675EB6429EF546082B9A25645A968 /* RBStoryboardLink.m in Sources */,
-				21AEA75C51BF8F214807DFEB1CF25564 /* RBStoryboardModalSegue.m in Sources */,
-				1D7FEB0AB6CD2B7BD5110CFCA9348C94 /* RBStoryboardPopoverSegue.m in Sources */,
-				93FF7F77DC72FA59F6698B21E37BA052 /* RBStoryboardPushSegue.m in Sources */,
-				94F88ABCE4666BF745A9866174B143DE /* RBStoryboardSegue.m in Sources */,
-				E93E327B7E82A4F1438B7AA8656EEE8F /* UIViewController+RBStoryboardLink.m in Sources */,
+				91A7015DE814F58D963BAFD5B3468ABD /* RBStoryboardLink-dummy.m in Sources */,
+				0F65C2617DB805F8AB4D53A557B647AD /* RBStoryboardLink.m in Sources */,
+				479B3941D1F4813115F8752EEA3001B1 /* RBStoryboardModalSegue.m in Sources */,
+				79F8F700FEEFDA970AC51CC5E4164FC7 /* RBStoryboardPopoverSegue.m in Sources */,
+				52C138F397914B1CC1DA7A995760F8F7 /* RBStoryboardPushSegue.m in Sources */,
+				D008EED42CCFCD2B70ED6988F184770A /* RBStoryboardSegue.m in Sources */,
+				E002480B358F8328BCDFDD2FF8A278A2 /* UIViewController+RBStoryboardLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51A1E7A59D971D89B284A90BF126DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F1BC8CA17E6A5E703382BA71A6B621 /* UIViewController+Routing-dummy.m in Sources */,
+				8E4236F97B2B5CAC01E6AC64C5A1A013 /* UIViewController+Routing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F284C5861DBFC5B3A7AFC8B6D76FD2CC /* PBXTargetDependency */ = {
+		50B9A46CD2C7AABEA31B6B45E5ABACAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIViewController+Routing";
+			target = F176B591448FAB48920A55167205A20C /* UIViewController+Routing */;
+			targetProxy = F9A0AD0F99AA0846758FFDFB17A0EBC8 /* PBXContainerItemProxy */;
+		};
+		7117F7725F31055420A3C6492B8364A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RBStoryboardLink;
-			target = 8065399CEA614160D550C889ED8A5E5D /* RBStoryboardLink */;
-			targetProxy = 4E10F9E5C9A0674EADA181BF360491D0 /* PBXContainerItemProxy */;
+			target = 20F0AA2F86904DF1CFB2DEABFB805667 /* RBStoryboardLink */;
+			targetProxy = 3906B61E14EC4AD17B0E368C7BB1C927 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		765E41428EEB37275AFFCEABBB344196 /* Release */ = {
+		1D904D1249A54298D6FF8BEFDA1FA5A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC2657354E871437531C450ACFDC9CAA /* RBStoryboardLink.xcconfig */;
+			baseConfigurationReference = 396FEC0BF7E767BCECA94E7AC2E5DC5C /* UIViewController+Routing.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RBStoryboardLink/RBStoryboardLink-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController+Routing/UIViewController+Routing-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -326,9 +416,30 @@
 			};
 			name = Release;
 		};
-		9038714C3F54C6A96F8759F6009837D9 /* Debug */ = {
+		269BE0DF5AA8BCE8AA92019C622E2A87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC2657354E871437531C450ACFDC9CAA /* RBStoryboardLink.xcconfig */;
+			baseConfigurationReference = 396FEC0BF7E767BCECA94E7AC2E5DC5C /* UIViewController+Routing.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController+Routing/UIViewController+Routing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C4A46E78DC0717EA73E30C19245B6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9385C5D23A803EDC48D58198301B771B /* RBStoryboardLink.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -342,6 +453,27 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C7DA673BC4145306BBC6B4E472DFF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -388,28 +520,28 @@
 			};
 			name = Debug;
 		};
-		EEE2B3E8D1590693519C968153B278FC /* Debug */ = {
+		CC694A325DB4B0452E690621F17C0504 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C83BF6702F0C48A8D1C5A59935A2117 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 9385C5D23A803EDC48D58198301B771B /* RBStoryboardLink.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RBStoryboardLink/RBStoryboardLink-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		F0B944A8D2C1FC31D5A676FA18A8C0C9 /* Release */ = {
+		DC63CB37D03C4BBF865CA384654003A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74D16BBB58D3D00FC3350B65437D5E18 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -470,6 +602,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D7E1594A6AD7C43CF3948C7FEDCC7E2 /* Build configuration list for PBXNativeTarget "UIViewController+Routing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269BE0DF5AA8BCE8AA92019C622E2A87 /* Debug */,
+				1D904D1249A54298D6FF8BEFDA1FA5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -479,20 +620,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A26AF6AEC7A4AC2B4E449862654A68BA /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		8D5058A97D68BA0A961C154934783D86 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEE2B3E8D1590693519C968153B278FC /* Debug */,
-				F0B944A8D2C1FC31D5A676FA18A8C0C9 /* Release */,
+				6C7DA673BC4145306BBC6B4E472DFF65 /* Debug */,
+				DC63CB37D03C4BBF865CA384654003A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4E808AD8FF34BE669ADED046E759908 /* Build configuration list for PBXNativeTarget "RBStoryboardLink" */ = {
+		A3715951E524A88A8C97E6FA9BF69B67 /* Build configuration list for PBXNativeTarget "RBStoryboardLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9038714C3F54C6A96F8759F6009837D9 /* Debug */,
-				765E41428EEB37275AFFCEABBB344196 /* Release */,
+				6C4A46E78DC0717EA73E30C19245B6FB /* Debug */,
+				CC694A325DB4B0452E690621F17C0504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0C65C31D0336B300F88D49 /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C65C21D0336B300F88D49 /* MainRouter.m */; };
 		8C39D69A1CE0A83C007F26E8 /* SIONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D6991CE0A83C007F26E8 /* SIONavigationController.m */; };
 		8C39D69D1CE0C903007F26E8 /* LandscapeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D69C1CE0C903007F26E8 /* LandscapeVC.m */; };
 		8C39D6A01CE0C9C6007F26E8 /* PortraitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39D69F1CE0C9C6007F26E8 /* PortraitVC.m */; };
@@ -32,6 +33,8 @@
 		18CE8F85B80186E3CDF0F152 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3C1F1F27B798DB3624D3BD97 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D0FDD731243861A7D8EBEE5 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0C65C11D0336B300F88D49 /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainRouter.h; sourceTree = "<group>"; };
+		8C0C65C21D0336B300F88D49 /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainRouter.m; sourceTree = "<group>"; };
 		8C39D6981CE0A83C007F26E8 /* SIONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIONavigationController.h; sourceTree = "<group>"; };
 		8C39D6991CE0A83C007F26E8 /* SIONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIONavigationController.m; sourceTree = "<group>"; };
 		8C39D69B1CE0C903007F26E8 /* LandscapeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeVC.h; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				8C42C1DC1CE0FF8D002B64B6 /* TestVC.h */,
 				8C42C1DD1CE0FF8D002B64B6 /* TestVC.m */,
 				8C42C1DE1CE0FF8D002B64B6 /* TestVC.xib */,
+				8C0C65C11D0336B300F88D49 /* MainRouter.h */,
+				8C0C65C21D0336B300F88D49 /* MainRouter.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				8C42C1DF1CE0FF8D002B64B6 /* TestVC.m in Sources */,
 				8CED76281CDE42B30028C950 /* AppDelegate.m in Sources */,
 				8C39D6A01CE0C9C6007F26E8 /* PortraitVC.m in Sources */,
+				8C0C65C31D0336B300F88D49 /* MainRouter.m in Sources */,
 				8C39D69A1CE0A83C007F26E8 /* SIONavigationController.m in Sources */,
 				8CED76251CDE42B30028C950 /* main.m in Sources */,
 				8C39D6AA1CE0CA3F007F26E8 /* GreenVC.m in Sources */,

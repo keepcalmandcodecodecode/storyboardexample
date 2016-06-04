@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <UIViewController+Routing/UIViewController+Routing.h>
 
 @interface MainVC : UIViewController
 @end

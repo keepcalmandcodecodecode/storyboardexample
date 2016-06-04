@@ -10,15 +10,17 @@
 #import "RedVC.h"
 #import "GreenVC.h"
 #import <RBStoryboardLink/RBStoryboardLink.h>
+#import "MainRouter.h"
 
 @interface MainVC ()
-
+@property (strong,nonatomic) MainRouter *router;
 @end
 
 @implementation MainVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.router = [MainRouter new];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -29,12 +31,12 @@
 
 - (IBAction)showGreen:(id)sender
 {
-    [self performSegueWithIdentifier:@"showGreenVC" sender:self];
+    [self.router showGreenVCFrom:self withDictionary:@{@"title":@"green"}];
 }
 
 - (IBAction)showRed:(id)sender
 {
-    [self performSegueWithIdentifier:@"showRedVC" sender:self];
+    [self.router showRedVCFrom:self withDictionary:@{@"title":@"RED"}];
 }
 
 - (IBAction)showTest:(id)sender
@@ -42,19 +44,6 @@
     [self performSegueWithIdentifier:@"showTestVC" sender:self];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if([segue.identifier isEqualToString:@"showRedVC"])
-    {
-        RBStoryboardLink *link = segue.destinationViewController;
-        RedVC *dvc = (RedVC*)link.scene;
-        [dvc configureWith:@"RED"];
-    }
-    else if([segue.identifier isEqualToString:@"showGREENVC"])
-    {
-        GreenVC *greenVC = segue.destinationViewController;
-        [greenVC configureWith:@"GREEN"];
-    }
-}
+
 
 @end
